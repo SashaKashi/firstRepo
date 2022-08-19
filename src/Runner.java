@@ -3,5 +3,8 @@ public class Runner {
 
         System.out.println("Hello, Java!");
 
+        System.out.println("Hello, Java!");
+
+
     }
 }
