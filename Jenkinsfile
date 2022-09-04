@@ -5,12 +5,10 @@ pipeline{
   agent any
   triggers{pollSCM('* * * * *')}
   stages {
-  stage('install') {
+  stage('write') {
     steps {
       echo 'Code was changed and Jenkins saw it!'
     }
   }
-
 }
-  
 }
