@@ -1,5 +1,9 @@
+#!groovy
+properties([disableConcurrentBuilds()])
+
 pipeline{
   agent any
+  triggers{pollSCM('* * * * *')}
   stages {
   stage('install') {
     steps {
