@@ -7,6 +7,21 @@
    <artifactId>SpringBootTutorial</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <packaging>war</packaging>
+ <configuration>
+    <container>
+        <containerId>tomcat9x</containerId>
+        <type>remote</type>
+    </container>
+    <configuration>
+        <type>runtime</type>
+        <properties>
+            <cargo.remote.username>admin</cargo.remote.username>
+            <cargo.remote.password>admin</cargo.remote.password>
+            <cargo.tomcat.manager.url>http://192.168.43.143:8085/manager/text
+              </cargo.tomcat.manager.url>
+        </properties>
+    </configuration>
+</configuration>
  <plugin>
        <groupId>org.apache.maven.plugins</groupId>
        <artifactId>maven-war-plugin</artifactId>
