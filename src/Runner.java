@@ -3,7 +3,7 @@ public class Runner {
 
         System.out.println("Hello, Java!");
         System.out.println("Hello, Java!");
-         System.out.println("Jenkins, давааааааай!");
+         System.out.println("Jenkins, let's go!");
 
         System.out.println("Commit will be rolled back");
 
